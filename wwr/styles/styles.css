@@ -1,15 +1,16 @@
-/* Basic styles */
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-
+#background {
+    height: 725px;
+}
 body {
     background-color: #fcfbfb;
-    text-align: center;
 }
 
-/* Header */
+
 header {
     background-color: rgba(20,30,13, .7);
 }
@@ -45,6 +46,7 @@ nav a:hover {
 .button-box {
     text-align: center;
     margin-bottom: 50px;
+    
 }
 
 main section {
@@ -58,9 +60,12 @@ main section {
     padding: 10px 40px;
     border-radius: 30px;
 }
-
+.button-box img {
+    width: 60px;
+    padding-left: 50px;
+}
 .book:hover, .join:hover {
-    background-color: #6f7364;
+    background-color: #6734;
     color: white;
     border-radius: 30px;
 }
