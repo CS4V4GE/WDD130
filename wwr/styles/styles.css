@@ -14,11 +14,16 @@ body {
     margin: 0;
     padding: 0;
 }
+h1 {
+    font-family: Raleway, Arial, sans-serif;
+}
 h2 {
     margin: 0;
-
+    font-family: Raleway, Arial, sans-serif;
 }
-
+h4 {
+    font-family: Raleway, Arial, sans-serif;
+}
 
 header {
     background-color: rgba(20,30,13, .7);
@@ -26,6 +31,7 @@ header {
 
 .logo {
     width: 80px;
+
 }
 
 nav a {
@@ -56,7 +62,6 @@ nav a:hover {
 
 main section {
     text-align: center;
-    box-sizing: border-box;
 }
 main section img {
     box-sizing: border-box;
@@ -87,6 +92,7 @@ main section img {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .msg {
@@ -98,11 +104,13 @@ main section img {
 .msg h2, .msg p {
     color: white;
     font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #6f7364;
     color: white;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -120,7 +128,11 @@ footer p a:hover {
 
 .social img {
     width: 60px;
+    padding-top: 15px;
 }
  .mountain-img {
     align-items: center;
+}
+#logo_link {
+    padding-top: 5px;
 }
