@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <rel link="stylesheet" href="styles.css"></rel>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body{
-            height: 100%;
-        }
-        #main_content{
-            width: 1600;
-            display:grid;
-            grid-template-rows: 1fr auto;
-            grid-template-columns: 200px 1fr ;
-        }
-
+      #content {
+        margin: 0 auto;
+        width: 400px;
+      }
+      body{
+        background-color: black;
+      }
+      #main_content {
+        background-color: white;
+        height: 550px;
+      }
+      #footer {
+        background-color: darkblue;
+        height: 100px;
+      }
+      img {
+        width: 400px;
+      }
     </style>
-</head>
-<body>
-    <div id="main_content">
-        <header></header>
-        <img src="w09_ice_img.jpg">
-
-        <p>This is some text that would go here</p>
+  </head>
+  <body>
+    <div id="content">
+      <img src="w09_ice_img.jpg" alt="photo of city or sumn" />
+      <div id="main_content">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut,
+          voluptate officiis quisquam deleniti saepe inventore esse, veniam
+          delectus quasi ducimus, neque blanditiis aliquam nemo tempore earum
+          amet ea? Tempora, odio.
+        </p>
+      </div>
+      <div id="footer">
+        <nav></nav>
+        <nav></nav>
+        <nav></nav>
+      </div>
     </div>
-</body>
+  </body>
 </html>
