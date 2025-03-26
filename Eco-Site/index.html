@@ -1,50 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="images/logo.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eco-Site - Home</title>
-    <link rel="stylesheet" href="styles/styles.css">
-
-</head>
-<body>
-    <!-- Header with forest background -->
+  </head>
+  <body>
     <header>
-        <div class="slide-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-            Slide Menu
-        </div>
-        <h1 class="website-header">Eco-Site</h1>
-        <a href="#" class="learn-more-btn">Learn More</a>
+      <h1 class="website-header">Eco-Site Home Page</h1>
+      <p>
+        Your guide to sustainable living. Discover tips, budget-friendly
+        solutions, and eco-friendly product recommendations.
+      </p>
+      <nav>
+        <a href="getting-started.html" class="nav-button">Getting Started</a>
+        <a href="budgeting-tips.html" class="nav-button">Budgeting Tips</a>
+      </nav>
     </header>
-    
 
     <main>
-        <h1>Welcome to Eco-Site</h1>
-        <p>Your guide to sustainable living. Discover tips, budget-friendly solutions, and eco-friendly product recommendations.</p>
-        
-        <section class="highlights">
-            <div class="highlight">
-                <h2><a href="getting-started.html">Getting Started</a></h2>
-                <p>New to sustainable living? Learn the basics and take the first steps toward an eco-friendly lifestyle.</p>
-            </div>
-            <div class="highlight">
-                <h2><a href="budget-tips.html">Budget Tips</a></h2>
-                <p>Find cost-effective ways to go green without breaking the bank. Sustainable living can be affordable!</p>
-            </div>
-        </section>
+      <section class="about">
+        <h2>What we do at Eco-Site</h2>
+        <p>
+          At Eco-Site, we are dedicated to promoting sustainable living by
+          providing practical tips and resources. Whether you're new to the
+          concept of sustainability or looking for ways to reduce your
+          environmental footprint, we offer insights on eco-friendly practices,
+          affordable green products, and responsible consumption. Our goal is to
+          help individuals make informed choices that benefit both the planet
+          and their wallets.
+        </p>
+      </section>
+
+      <section class="highlights">
+        <div class="highlight">
+          <h2><a href="getting-started.html">Getting Started</a></h2>
+          <p>
+            New to sustainable living? Learn the basics and take the first steps
+            toward an eco-friendly lifestyle.
+          </p>
+        </div>
+        <div class="highlight">
+          <h2><a href="budget-tips.html">Budgeting Tips</a></h2>
+          <p>
+            Find cost-effective ways to go green without breaking the bank.
+            Sustainable living can be affordable!
+          </p>
+        </div>
+        <div class="highlight">
+          <h2>Recommended Articles</h2>
+          <p>
+            Find the most relatable articles for sustainable and budget-friendly
+            living!
+          </p>
+        </div>
+      </section>
+
+      <!-- Signup Form -->
+      <section class="signup">
+        <h2>Sign up form</h2>
+        <form>
+          <input type="text" placeholder="Username" required />
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Password" required />
+          <button type="submit">Sign up</button>
+        </form>
+        <p>
+          By signing up, you agree to our <a href="#">Terms of Service</a> and
+          <a href="#">Privacy Policy</a>.
+        </p>
+      </section>
     </main>
-    
 
     <footer>
-        <div class="footer-logo">Logo</div>
-        <nav class="footer-nav">
-            <a href="getting-started.html">Getting Started</a>
-            <a href="budget-tips.html">Budget Tips</a>
-        </nav>
-        <p>&copy; 2024 Christopher Savage. All rights reserved.</p>
+      <div><img class="logo" src="images/logo.png" alt="Eco-Site Logo" /></div>
+      <nav class="footer-nav">
+        <a href="getting-started.html" class="nav-button">Getting Started</a>
+        <a href="budgeting-tips.html" class="nav-button">Budgeting Tips</a>
+      </nav>
+      <p>
+        &copy; 2024 Your Website. All rights reserved.
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+      </p>
     </footer>
-</body>
+  </body>
 </html>

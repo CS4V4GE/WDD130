@@ -1,6 +1,115 @@
-.img {
-    width: 80px;
-    padding-left: 20px;
-    padding-top: 6px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2d6a4f;
+}
+
+header {
+    background-image: url('../images/forest.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+    height: 400px;
+}
+
+
+.website-header {
+    font-size: 3rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+main {
+    padding: 60px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.highlight h2 a {
+    color: #2d6a4f;
+    text-decoration: none;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px; 
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+button {
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #2d6a4f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.logo {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        padding: 40px 10px;
+    }
 }
