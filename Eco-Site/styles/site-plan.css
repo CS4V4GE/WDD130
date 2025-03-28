@@ -17,7 +17,7 @@ Any spaces in your font name should be replaced with a + */
   --headline-color-on-white: #7FA488;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #8B7355; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: white; 
   --paragraph-background-color: #7FA488;
   --nav-link-color: #7FA488;
   --nav-background-color: #F4D03F;
