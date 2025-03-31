@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    height: 40px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.faq h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.accordion {
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: background-color 0.4s ease;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion:hover,
+.accordion.active {
+    background-color: #f0f0f0;
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 16px;
+    color: #666;
+}
+
+.accordion.active:after {
+    content: "\2796";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: #333;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+}
+
+footer .logo {
+    height: 30px;
+}
+
+footer nav a {
+    color: black;
+    margin: 0 10px;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}
